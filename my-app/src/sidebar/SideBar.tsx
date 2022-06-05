@@ -1,11 +1,11 @@
 import React from 'react'
 import "./sidebar.css"
 import photo from "../images/kevin&i.png"
-import { Instagram, Search } from "@mui/icons-material";
+import { Instagram} from "@mui/icons-material";
 
 const SideBar = () => {
   return (
-    <div className = "sidebar">SideBar
+    <div className = "sidebar">
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT US</span>
         <img src={photo} alt=""/>
@@ -15,11 +15,12 @@ const SideBar = () => {
       </div>    
       <span className="sidebarTitle">CATEGORIES</span>
       <ul className="sidebarList">
-        <li className="sidebarListItem">Life</li>
+        <li className="sidebarListItem">Fine Dining</li>
+        <li className="sidebarListItem">Cooking</li>
         <li className="sidebarListItem">Fashion</li>
         <li className="sidebarListItem">Travel</li>
       </ul>
-      <div className="sidebaritem">
+      <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW US</span>
         <div className="sidebarSocial">
           <div className = "sidebarIcon"><Instagram/></div>
