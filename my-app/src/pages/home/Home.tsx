@@ -2,19 +2,19 @@ import React from 'react'
 import "./home.css"
 import Header from "../../header/Header"
 import SideBar from "../../sidebar/SideBar"
-
+import BlogPosts from "../../posts/BlogPosts"
 
 
 
 const Home = () => {
   return (
-    <div className = "home">
-        <Header/>
-        <div className="home">
-         
-          <SideBar/>
-        </div>
-    </div>
+    <>
+      <Header />
+      <div className="home">
+        <BlogPosts />
+        <SideBar />
+      </div>
+    </>
   )
 }
 
