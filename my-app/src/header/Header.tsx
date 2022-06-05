@@ -1,5 +1,6 @@
 import React from 'react'
 import "./header.css"
+import cookies from  "../images/cookies.png"
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
         </div>
         <img 
         className="headerImg" 
-        src="https://drive.google.com/file/d/1tUWL8cHFTm8NG85u1qE-zHMvM6zxT6m0/view?usp=sharing" 
+        src= {cookies}
         alt="" 
         />
     </div>
