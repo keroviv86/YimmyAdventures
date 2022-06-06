@@ -5,9 +5,8 @@ import BlogPost from "../blogpost/BlogPost"
 const BlogPosts = () => {
   return (
     <div className="posts">
-      Hello
+      <BlogPost/>
     </div>
   )
 }
-
 export default BlogPosts
