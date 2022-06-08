@@ -15,20 +15,14 @@ const BlogPost = () => {
       <div className="postInfo">
         <div className="postCats">
           <span className="postCat">
-            <Link className="link" to="/posts?cat=Music">
-              Music
-            </Link>
+              Food
           </span>
           <span className="postCat">
-            <Link className="link" to="/posts?cat=Music">
               Life
-            </Link>
           </span>
         </div>
         <span className="postTitle">
-          <Link to="/post/abc" className="link">
             Lorem ipsum dolor sit amet
-          </Link>
         </span>
         <hr />
         <span className="postDate">1 hour ago</span>
