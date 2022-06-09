@@ -6,6 +6,10 @@ const BlogPosts = () => {
   return (
     <div className="posts">
       <BlogPost/>
+      <BlogPost/>
+      <BlogPost/>
+      <BlogPost/>
+      <BlogPost/>
     </div>
   )
 }
