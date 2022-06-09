@@ -58,6 +58,7 @@
   /* show 4 lines and rest will be ... */
   text-overflow: ellipsis;
   display: -webkit-box;
+  /* tells you how many lines to show. 4-4 lines, 5-5lines. */
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }

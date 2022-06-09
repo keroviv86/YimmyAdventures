@@ -1,4 +1,7 @@
 
 .posts{
     flex: 9;
+    display: flex;
+    /* use whole horizontal row. if the children width(post) is bigger it will move to the next row */
+    flex-wrap: wrap;
 }
