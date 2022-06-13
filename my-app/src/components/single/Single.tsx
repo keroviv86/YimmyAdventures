@@ -1,8 +1,12 @@
 import React from 'react'
 import "./single.css"
+import SideBar from "../../components/sidebar/SideBar"
+
 const Single = () => {
   return (
-    <div>Single</div>
+    <div className = "single">
+       <SideBar />
+    </div>
   )
 }
 
