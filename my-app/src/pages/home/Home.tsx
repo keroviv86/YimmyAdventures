@@ -1,8 +1,8 @@
 import React from 'react'
 import "./home.css"
-import Header from "../../header/Header"
-import SideBar from "../../sidebar/SideBar"
-import BlogPosts from "../../blogposts/BlogPosts"
+import Header from "../../components/header/Header"
+import SideBar from "../../components/sidebar/SideBar"
+import BlogPosts from "../../components/blogposts/BlogPosts"
 
 
 
